@@ -9,7 +9,7 @@ const About = () => {
           <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">About Me</h1>
             <p className='py-5 text-lg'>
             Hi, my name is Thando Baca, a passionate front-end developer 
-            with a creative touch. With a keen eye for design adn extensive know how of HTML, CSS, and javaScript, I specialise in 
+            with a creative touch. With a keen eye for design and extensive knowledge of HTML, CSS, JavaScript, and ReactJS. I specialise in 
             bringing digital visions to life through captivating and interactive user experience. .
             </p>
            
