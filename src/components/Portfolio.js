@@ -29,7 +29,7 @@ const Portfolio = () => {
 
  
   return (
-    <section className='bg-secondary text-white py-20'>
+    <section className='bg-secondary min-h-screen text-white py-20'>
       <div className="container mx-auto">
         <h1 className="text-5xl font-bold mb-10 border-b-4 border-indigo-600 pb-2">
           Portfolio

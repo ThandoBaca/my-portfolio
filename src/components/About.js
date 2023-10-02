@@ -3,7 +3,7 @@ import AboutImg from '../assets/profile.jpg'
 
 const About = () => {
   return (
-    <section className='bg-secondary text-white py-32'>
+    <section className='bg-secondary min-h-screen text-white py-32'>
         <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className='about-info'>
           <h1 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">About Me</h1>
