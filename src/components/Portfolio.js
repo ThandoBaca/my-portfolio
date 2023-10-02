@@ -29,7 +29,7 @@ const Portfolio = () => {
 
  
   return (
-    <section className='bg-secondary min-h-screen text-white py-20'>
+    <section className='bg-gradient-to-b from-[#001529] via-[#00204E] to-[#7477FF] min-h-screen text-white py-20'>
       <div className="container mx-auto">
         <h1 className="text-5xl font-bold mb-10 border-b-4 border-indigo-600 pb-2">
           Portfolio
