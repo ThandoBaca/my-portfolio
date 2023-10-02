@@ -10,7 +10,7 @@ const Card = ({ children }) => (
 const Contact = () => {
   return (
     <section className="bg-primary text-white py-16" id="contact">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto min-h-screen text-center">
         <h2 className="text-4xl font-bold mb-8 border-b-4 border-indigo-600 pb-2 inline-block">
           Contact Me
         </h2>
