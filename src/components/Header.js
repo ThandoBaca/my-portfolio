@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import LogoImg from "../assets/logo-1.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,18 +18,18 @@ const Header = () => {
       {/* Desktop Nav */}
       <nav className="hidden md:block">
         <ul className="flex space-x-4">
-          <NavItem href="/about">About</NavItem>
-          <NavItem href="/portfolio">Portfolio</NavItem>
-          <NavItem href="/contact">Contact</NavItem>
+          <NavItem to="/about">About</NavItem>
+          <NavItem to="/portfolio">Portfolio</NavItem>
+          <NavItem to="/contact">Contact</NavItem>
         </ul>
       </nav>
 
       {/* Mobile Nav */}
       <nav className={`mobile-nav ${!toggle ? "-left-full" : "left-0"}`}>
         <ul className="flex flex-col">
-          <NavItem href="/about">About</NavItem>
-          <NavItem href="/portfolio">Portfolio</NavItem>
-          <NavItem href="/contact">Contact</NavItem>
+          <NavItem to="/about">About</NavItem>
+          <NavItem to="/portfolio">Portfolio</NavItem>
+          <NavItem to="/contact">Contact</NavItem>
         </ul>
       </nav>
 
