@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import LogoImg from "../assets/logo-1.png";
-import { Link } from "react-router-dom";
+
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
