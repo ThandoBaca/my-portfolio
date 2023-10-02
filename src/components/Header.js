@@ -21,17 +21,27 @@ const Header = () => {
           <Link to="/about">
           <NavItem to="/about">About</NavItem>
           </Link>
+          <Link to="/portfolio">
           <NavItem to="/portfolio">Portfolio</NavItem>
+          </Link>
+          <Link to="/contact">
           <NavItem to="/contact">Contact</NavItem>
+          </Link>
         </ul>
       </nav>
 
       {/* Mobile Nav */}
       <nav className={`mobile-nav ${!toggle ? "-left-full" : "left-0"}`}>
         <ul className="flex flex-col">
+          <Link to="/about">
           <NavItem to="/about">About</NavItem>
+          </Link>
+          <Link to="/portfolio">
           <NavItem to="/portfolio">Portfolio</NavItem>
+          </Link>
+          <Link to="/contact">
           <NavItem to="/contact">Contact</NavItem>
+          </Link>
         </ul>
       </nav>
 
