@@ -32,7 +32,7 @@ const Hero = () => {
 
           <div className="flex space-x-4 mt-2 h-40"> {/* Adjusted spacing */}
             <a
-              href="https://twitter.com/your_twitter"
+              href="https://twitter.com/thando_baca"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-500 transition"
@@ -40,7 +40,7 @@ const Hero = () => {
               <FontAwesomeIcon icon={faTwitter} size="4x" />
             </a>
             <a
-              href="https://linkedin.com/in/your_linkedin"
+              href="https://www.linkedin.com/in/thando-baca-51249913b"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-500 transition"
@@ -48,7 +48,7 @@ const Hero = () => {
               <FontAwesomeIcon icon={faLinkedin} size="4x" />
             </a>
             <a
-              href="https://github.com/your_github"
+              href="https://github.com/ThandoBaca"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-500 transition"
